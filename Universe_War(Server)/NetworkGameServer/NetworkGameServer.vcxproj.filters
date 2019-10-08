@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{aac60e2e-fddc-4605-ba28-d528fc6af56a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{e0b90321-9c42-4b8e-aabd-bc5cae9da4cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{0b111337-42f4-4413-b01c-a0ea61da57ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameFrameWork">
+      <UniqueIdentifier>{395d680d-1c44-4374-859e-d3ac80f0eb7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GameScene">
+      <UniqueIdentifier>{9dd11ebd-0f04-45d6-aa54-3616b8f7cf7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\BipMap">
+      <UniqueIdentifier>{859b4016-4027-4b58-b82d-648f852b8af3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\UI">
+      <UniqueIdentifier>{1696b434-1710-4ca9-b25f-93273f037a00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Point">
+      <UniqueIdentifier>{74f8f151-64d8-47f3-9130-cfef938fe01d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\BackGround">
+      <UniqueIdentifier>{5b635bd1-e05c-4fb3-8c5d-1e5ebf4ee2ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Player">
+      <UniqueIdentifier>{dda75690-97c2-4b19-a58b-ec98edc0eda4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Planet">
+      <UniqueIdentifier>{ebbf60f0-4f08-4594-ba75-8d732f47a3cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Item">
+      <UniqueIdentifier>{13a8b1fa-8e20-4860-8925-061657395799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Missile">
+      <UniqueIdentifier>{d400e6dd-f56d-4e7b-b768-f88e4a1db24b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Item\HPItem">
+      <UniqueIdentifier>{73753d9d-7ec9-4b9f-a534-d24b4cb1ee4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Item\ChangeItem">
+      <UniqueIdentifier>{13535580-2a8d-4f72-9942-f232228a9849}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework.h">
+      <Filter>GameFrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Scene\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BitMap.h">
+      <Filter>Manager\BipMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Manager\Point</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Manager\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>Object\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Planet.h">
+      <Filter>Object\Planet</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeItem.h">
+      <Filter>Object\Item\ChangeItem</Filter>
+    </ClInclude>
+    <ClInclude Include="HPItem.h">
+      <Filter>Object\Item\HPItem</Filter>
+    </ClInclude>
+    <ClInclude Include="Missile.h">
+      <Filter>Object\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkGameServer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework.cpp">
+      <Filter>GameFrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Scene\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BitMap.cpp">
+      <Filter>Manager\BipMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Manager\Point</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Manager\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>Object\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Planet.cpp">
+      <Filter>Object\Planet</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeItem.cpp">
+      <Filter>Object\Item\ChangeItem</Filter>
+    </ClCompile>
+    <ClCompile Include="HPItem.cpp">
+      <Filter>Object\Item\HPItem</Filter>
+    </ClCompile>
+    <ClCompile Include="Missile.cpp">
+      <Filter>Object\Missile</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
